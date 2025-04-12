@@ -1,11 +1,28 @@
 import './App.css'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import Layout  from './Layout' 
+import Landing from './pages/Landing'
 
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Layout />,
+    children: [
+      {
+        index: true,
+        element: <Landing />,
+      },
+    ],
+  },
+])
 function App() {
 
   return (
-    <div className="h-48 w-full bg-red-400">
-      <h1>123</h1>
-    </div>
+    <>
+      <RouterProvider router={router} />
+    </>
+
   )
 }
 
