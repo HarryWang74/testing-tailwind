@@ -1,7 +1,7 @@
 import './App.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Layout  from './Layout' 
-import { Landing } from './pages'
+import { Landing, Colors } from './pages'
 
 
 const router = createBrowserRouter([
@@ -12,6 +12,10 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Landing />,
+      },
+      {
+        path: 'colors/',
+        element: <Colors />,
       },
     ],
   },
