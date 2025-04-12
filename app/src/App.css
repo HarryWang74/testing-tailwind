@@ -1,5 +1,16 @@
 @import "tailwindcss";
 
-@theme {
-  --color-mint-500: oklch(0.72 0.11 178);
+h1{ @apply text-3xl}
+h2{ @apply text-2xl}
+h3{ @apply text-xl}
+h4{ @apply text-lg}
+
+
+:root {
+  --color-primary: var(--color-blue-700);
+  --color-border: #7d7d7d;
+}
+
+.border-color {
+    border-color: var(--color-border);
 }

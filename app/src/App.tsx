@@ -1,7 +1,7 @@
 import './App.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Layout  from './Layout' 
-import Landing from './pages/Landing'
+import { Landing } from './pages'
 
 
 const router = createBrowserRouter([
