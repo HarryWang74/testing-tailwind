@@ -8,12 +8,15 @@ type ComponentProps = {
 
 const NavSection = (Props : ComponentProps) => {
   return (
-    <div className="p-4 border-b border-i-border-color hover:bg-i-hover-color">
-      <NavLink to={Props.link}>
+    <NavLink
+      to={Props.link}
+      className={({ isActive }) => (isActive ? 'bg-i-secondary' : '') + ' block'}
+    >
+      <div className="p-4 border-b border-i-border-color">
         <h2>{Props.title}</h2>
         <ul className="list-disc pl-4">{Props.children}</ul>
-      </NavLink>
-    </div>
+      </div>
+    </NavLink>
   )
 }
 

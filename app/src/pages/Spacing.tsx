@@ -1,9 +1,10 @@
 
 const Spacing = () => {
   return (
-    <div className="p-4">
-      <h1>Spacing</h1>
-    </div>
-  );
+    <>
+      <h1 className="p-4 border-b border-i-border-color">Spacing</h1>
+      <div className="p-4"></div>
+    </>
+  )
 };
 export default Spacing
