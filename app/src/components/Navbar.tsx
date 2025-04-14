@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import NavSection from './NavSection';
 
 const Navbar = () => {
   return (
@@ -8,17 +9,19 @@ const Navbar = () => {
           Tailwind Testing
         </h1>
       </NavLink>
-      <div className="p-4 border-b border-i-border-color hover:bg-i-hover-color">
-        <NavLink to="/colors">
-          <h2>Colors</h2>
-          <ul className="list-disc pl-4">
-            <li>Text color</li>
-            <li>Background color</li>
-            <li>Border color</li>
-            <li>Button outline color</li>
-          </ul>
-        </NavLink>
-      </div>
+      
+      <NavSection title="Colors" link="/colors">
+        <li>Text color</li>
+        <li>Background color</li>
+        <li>Border color</li>
+        <li>Button outline color</li>
+      </NavSection>
+
+      <NavSection title="Spacing" link="/spacing">
+        <li>Margin</li>
+        <li>Padding</li>
+      </NavSection>
+
     </div>
   )
 };
