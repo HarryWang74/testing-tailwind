@@ -7,7 +7,7 @@ const Layout = () => {
       <div className="basis-[400px] border-r border-color">
         <Navbar />
       </div>
-      <div>
+      <div className="flex-1">
         <Outlet />
       </div>
     </div>

@@ -8,15 +8,9 @@ h4{ @apply text-lg}
 @theme{
   --color-i-primary: var(--color-blue-700);
   --color-i-border-color: #7d7d7d;
-  --color-hover: #f6f6f6;
+  --color-i-hover-color: #f6f6f6;
+  --bg-i-hover-color: var(--color-i-hover-color)
 }
 
 h2, h3, h4{  margin-bottom: 0.5rem; }
 
-/* .border-color {
-    border-color: var(--color-border-color);
-} */
-
-.hover-color {
-    background-color: var(--color-hover);
-}

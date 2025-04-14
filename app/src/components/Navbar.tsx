@@ -8,17 +8,14 @@ const Navbar = () => {
           Tailwind Testing
         </h1>
       </NavLink>
-
-      {/*     <h2 className="text-(--color-border)">h2</h2>
-      <h3>h3</h3>
-      <h4>h4</h4> */}
-      <div className="p-4 border-b border-color hover:color-hover">
+      <div className="p-4 border-b border-i-border-color hover:bg-i-hover-color">
         <NavLink to="/colors">
           <h2>Colors</h2>
           <ul className="list-disc pl-4">
             <li>Text color</li>
             <li>Background color</li>
             <li>Border color</li>
+            <li>Button outline color</li>
           </ul>
         </NavLink>
       </div>
