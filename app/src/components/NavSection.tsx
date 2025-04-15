@@ -10,7 +10,9 @@ const NavSection = (Props : ComponentProps) => {
   return (
     <NavLink
       to={Props.link}
-      className={({ isActive }) => (isActive ? 'bg-i-secondary' : '') + ' block'}
+      className={({ isActive }) =>
+        (isActive ? 'bg-i-hover-color' : '') + ' block hover:bg-i-hover-color'
+      }
     >
       <div className="p-4 border-b border-i-border-color">
         <h2>{Props.title}</h2>
