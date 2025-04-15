@@ -9,7 +9,7 @@ const Navbar = () => {
           Tailwind Testing
         </h1>
       </NavLink>
-      
+
       <NavSection title="Colors" link="/colors">
         <li>Text color</li>
         <li>Background color</li>
@@ -22,6 +22,11 @@ const Navbar = () => {
         <li>Padding</li>
       </NavSection>
 
+      <NavSection title="Typography" link="/typography">
+        <li>Font Size</li>
+        <li>Text Alignment</li>
+        <li>Text Transform</li>
+      </NavSection>
     </div>
   )
 };

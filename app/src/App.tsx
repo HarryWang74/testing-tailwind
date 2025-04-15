@@ -1,7 +1,7 @@
 import './App.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Layout  from './Layout' 
-import { Landing, Colors, Spacing } from './pages'
+import { Landing, Colors, Spacing, Typography } from './pages'
 
 
 const router = createBrowserRouter([
@@ -20,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: 'spacing/',
         element: <Spacing />,
+      },
+      {
+        path: 'typography/',
+        element: <Typography />,
       },
     ],
   },
