@@ -41,7 +41,13 @@ const Navbar = () => {
         <li>Z-index</li>
       </NavSection>
 
-      <NavSection title="Drop Shadow" link="/dropshadow">
+      <NavSection title="Drop Shadow" link="/dropshadow"></NavSection>
+
+      <NavSection title="Border" link="/border">
+        <li>Border size, color</li>
+        <li>top, right, bottom, right</li>
+        <li>x, y</li>
+        <li>Radius</li>
       </NavSection>
     </div>
   )

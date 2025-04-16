@@ -9,6 +9,7 @@ import {
   Sizing,
   PositionDisplayZindex,
   DropShadow,
+  Border,
 } from './pages'
 
 
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
       {
         path: 'dropshadow/',
         element: <DropShadow />,
+      },
+      {
+        path: 'border/',
+        element: <Border />,
       },
     ],
   },

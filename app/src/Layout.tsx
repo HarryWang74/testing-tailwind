@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 const Layout = () => {
   return (
     <div className="flex flex-row h-screen ">
-      <div className="basis-[400px] border-r border-color">
+      <div className="basis-[400px] border-r border-color overflow-y-auto">
         <Navbar />
       </div>
       <div className="flex-1">

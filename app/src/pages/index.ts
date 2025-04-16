@@ -5,3 +5,4 @@ export { default as Typography } from './Typography';
 export { default as Sizing } from './Sizing';
 export { default as PositionDisplayZindex } from './PositionDisplayZindex';
 export { default as DropShadow } from './DropShadow';
+export { default as Border } from './Border';
