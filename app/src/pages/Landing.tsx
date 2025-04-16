@@ -1,9 +1,10 @@
 
 const Landing = () => {
   return (
-    <div className="p-4">
-      <h1>Landing</h1>
+    <div>
+      <h1 className="p-4 border-b border-i-border-color">&nbsp;</h1>
+      <div className="p-4"></div>
     </div>
-  );
+  )
 };
 export default Landing;

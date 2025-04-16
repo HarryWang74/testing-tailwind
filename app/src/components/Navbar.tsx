@@ -27,6 +27,13 @@ const Navbar = () => {
         <li>Text Alignment</li>
         <li>Text Transform</li>
       </NavSection>
+
+      <NavSection title="Sizing" link="/sizing">
+        <li>Width of the viewport</li>
+        <li>100% of container</li>
+        <li>Arbitrary Width</li>
+        <li>Full screen height</li>
+      </NavSection>
     </div>
   )
 };
