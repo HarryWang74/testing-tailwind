@@ -28,11 +28,17 @@ const Navbar = () => {
         <li>Text Transform</li>
       </NavSection>
 
-      <NavSection title="Sizing" link="/sizing">
+      <NavSection title="Width & Height" link="/sizing">
         <li>Width of the viewport</li>
         <li>100% of container</li>
-        <li>Arbitrary Width</li>
         <li>Full screen height</li>
+        <li>Arbitrary Width & Height</li>
+      </NavSection>
+
+      <NavSection title="Position, Display, Zindex" link="/position">
+        <li>Position</li>
+        <li>Display</li>
+        <li>Z-index</li>
       </NavSection>
     </div>
   )

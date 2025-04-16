@@ -11,7 +11,7 @@ const NavSection = (Props : ComponentProps) => {
     <NavLink
       to={Props.link}
       className={({ isActive }) =>
-        (isActive ? 'bg-i-hover-color' : '') + ' block hover:bg-i-hover-color'
+        (isActive ? 'text-i-primary' : '') + ' block hover:bg-i-hover-color'
       }
     >
       <div className="p-4 border-b border-i-border-color">

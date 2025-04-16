@@ -1,7 +1,14 @@
 import './App.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Layout  from './Layout' 
-import { Landing, Colors, Spacing, Typography, Sizing } from './pages'
+import {
+  Landing,
+  Colors,
+  Spacing,
+  Typography,
+  Sizing,
+  PositionDisplayZindex,
+} from './pages'
 
 
 const router = createBrowserRouter([
@@ -28,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: 'sizing/',
         element: <Sizing />,
+      },
+      {
+        path: 'position/',
+        element: <PositionDisplayZindex />,
       },
     ],
   },
