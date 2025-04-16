@@ -8,6 +8,7 @@ import {
   Typography,
   Sizing,
   PositionDisplayZindex,
+  DropShadow,
 } from './pages'
 
 
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: 'position/',
         element: <PositionDisplayZindex />,
+      },
+      {
+        path: 'dropshadow/',
+        element: <DropShadow />,
       },
     ],
   },

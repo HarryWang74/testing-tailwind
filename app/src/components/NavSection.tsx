@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 type ComponentProps = {
   title: string
   link: string
-  children: React.ReactNode
+  children?: React.ReactNode
 }
 
 const NavSection = (Props : ComponentProps) => {

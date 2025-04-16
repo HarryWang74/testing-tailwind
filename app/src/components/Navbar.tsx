@@ -40,6 +40,9 @@ const Navbar = () => {
         <li>Display</li>
         <li>Z-index</li>
       </NavSection>
+
+      <NavSection title="Drop Shadow" link="/dropshadow">
+      </NavSection>
     </div>
   )
 };
