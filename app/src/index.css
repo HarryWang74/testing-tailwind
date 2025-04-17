@@ -15,3 +15,8 @@ h4{ @apply text-lg}
 
 h2, h3, h4{  margin-bottom: 0.5rem; }
 
+section{ 
+  border-bottom: 1px solid var(--color-i-border-color);
+  @apply py-4
+}
+

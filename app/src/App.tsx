@@ -10,6 +10,7 @@ import {
   PositionDisplayZindex,
   DropShadow,
   Border,
+  Interactive,
 } from './pages'
 
 
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: 'border/',
         element: <Border />,
+      },
+      {
+        path: 'interactive/',
+        element: <Interactive />,
       },
     ],
   },

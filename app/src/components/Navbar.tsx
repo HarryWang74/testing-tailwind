@@ -49,6 +49,14 @@ const Navbar = () => {
         <li>x, y</li>
         <li>Radius</li>
       </NavSection>
+
+      <NavSection title="Interactive" link="/interactive">
+        <li>Button hover, focus, active</li>
+        <li>Hover group</li>
+        <li>Cursor</li>
+        <li>Resize</li>
+        <li>Select txt</li>
+      </NavSection>
     </div>
   )
 };
