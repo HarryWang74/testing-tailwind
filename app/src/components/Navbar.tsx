@@ -57,6 +57,9 @@ const Navbar = () => {
         <li>Resize</li>
         <li>Select txt</li>
       </NavSection>
+
+      <NavSection title="Break points" link="/breakpoints">
+      </NavSection>
     </div>
   )
 };

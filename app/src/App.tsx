@@ -11,6 +11,7 @@ import {
   DropShadow,
   Border,
   Interactive,
+  BreakPoints,
 } from './pages'
 
 
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
       {
         path: 'interactive/',
         element: <Interactive />,
+      },
+      {
+        path: 'breakpoints/',
+        element: <BreakPoints />,
       },
     ],
   },
