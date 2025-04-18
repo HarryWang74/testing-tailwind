@@ -53,31 +53,43 @@ const Flex = () => {
     <div>
       <h1 className="p-4 border-b border-i-border-color">Flex</h1>
       <div className="p-4">
+        <h3>Container: {containerWidth}</h3>
         <section>
           <h2>col width, grow, shrink</h2>
-          <h3>Container: {containerWidth}</h3>
           <div id="myFlexContainer">
             <div className="flex">
               <div className="w-[200px] flex-none p-10 border" id="box1">
                 {box1Width}
+                <h3>flex-none</h3>
+                <p>to prevent a flex item from growing or shrinking</p>
               </div>
               <div className="w-[400px] flex-initial p-10 border" id="box2">
                 {box2Width}
-              </div>
-              <div className="w-[200px] flex-initial p-10 border" id="box3">
-                {box3Width}
-              </div>
-
-              {/*            <div className="w-[200px] flex-none p-10 border" id="box1">
-                {box1Width}
-              </div>
-              <div className="w-[400px] flex-auto p-10 border" id="box2">
-                {box2Width}
+                <h3>flex-initial</h3>
+                <p>
+                  to allow a flex item to shrink but not grow, taking into
+                  account its initial size
+                </p>
               </div>
               <div className="w-[200px] flex-auto p-10 border" id="box3">
                 {box3Width}
-              </div> */}
+                <h3>flex-auto</h3>
+                <p>
+                  to allow a flex item to grow and shrink, taking into account
+                  its initial size
+                </p>
+              </div>
             </div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Breakpoint overlap</h2>
+          <p>flex-col lg:flex-row <b>screen above 1024 use flex-row</b></p>
+          <div className="flex flex-col lg:flex-row">
+            <div className="border p-10 flex-auto">1</div>
+            <div className="border p-10 flex-auto">2</div>
+            <div className="border p-10 flex-auto">3</div>
           </div>
         </section>
       </div>

@@ -40,6 +40,17 @@ const BreakPoints = () => {
         <p>
           <b>2xl</b> 1536px
         </p>
+        <section>
+          <h2>Breakpoint overlap</h2>
+          <p>
+            flex-col lg:flex-row <b>screen above 1024 use flex-row</b>
+          </p>
+          <div className="flex flex-col lg:flex-row">
+            <div className="border p-10 flex-auto">1</div>
+            <div className="border p-10 flex-auto">2</div>
+            <div className="border p-10 flex-auto">3</div>
+          </div>
+        </section>
       </div>
     </div>
   )

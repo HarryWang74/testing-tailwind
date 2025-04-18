@@ -19,6 +19,12 @@ const Spacing = () => {
         <div className="mr-4 bg-slate-500">mr-4</div>
         <div className="mb-8 bg-slate-600">mb-8</div>
         <div className="ml-2 bg-slate-700">ml-2</div>
+        <div className=" bg-slate-100">
+          <div className="p-4 border mx-auto w-[200px]">mx-auto w-[200px]</div>
+        </div>
+        <div className=" bg-slate-200">
+          <div className="p-4 border ml-auto w-[200px]">ml-auto w-[200px]</div>
+        </div>
         <h2>Padding</h2>
         <div className="p-4 bg-slate-100">p-4</div>
         <div className="px-4 bg-slate-200">px-4</div>

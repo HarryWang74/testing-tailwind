@@ -63,8 +63,6 @@ const Navbar = () => {
       <NavSection title="Flex" link="/flex">
         <li>col width, grow, shrink</li>
         <li>overlay on breakpoint</li>
-        <li>align v center bottom</li>
-        <li>align h center bottom</li>
       </NavSection>
     </div>
   )
