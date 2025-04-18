@@ -64,6 +64,9 @@ const Navbar = () => {
         <li>col width, grow, shrink</li>
         <li>overlay on breakpoint</li>
       </NavSection>
+
+      <NavSection title="Transform" link="/transform">
+      </NavSection>
     </div>
   )
 };

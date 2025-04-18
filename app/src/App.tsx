@@ -13,6 +13,7 @@ import {
   Interactive,
   BreakPoints,
   Flex,
+  Transform
 } from './pages'
 
 
@@ -64,6 +65,10 @@ const router = createBrowserRouter([
       {
         path: 'flex/',
         element: <Flex />,
+      },
+      {
+        path: 'transform/',
+        element: <Transform />,
       },
     ],
   },

@@ -9,3 +9,4 @@ export { default as Border } from './Border';
 export { default as Interactive } from './Interactive';
 export { default as BreakPoints } from './BreakPoints';
 export { default as Flex } from './Flex';
+export { default as Transform } from './Transform';
