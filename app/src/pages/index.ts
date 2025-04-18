@@ -10,3 +10,4 @@ export { default as Interactive } from './Interactive';
 export { default as BreakPoints } from './BreakPoints';
 export { default as Flex } from './Flex';
 export { default as Transform } from './Transform';
+export { default as DarkTheme } from './darkTheme';

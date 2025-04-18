@@ -13,7 +13,8 @@ import {
   Interactive,
   BreakPoints,
   Flex,
-  Transform
+  Transform,
+  DarkTheme,
 } from './pages'
 
 
@@ -69,6 +70,10 @@ const router = createBrowserRouter([
       {
         path: 'transform/',
         element: <Transform />,
+      },
+      {
+        path: 'darktheme/',
+        element: <DarkTheme />,
       },
     ],
   },

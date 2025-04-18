@@ -65,8 +65,9 @@ const Navbar = () => {
         <li>overlay on breakpoint</li>
       </NavSection>
 
-      <NavSection title="Transform" link="/transform">
-      </NavSection>
+      <NavSection title="Transform" link="/transform"></NavSection>
+
+      <NavSection title="Dark theme" link="/darktheme"></NavSection>
     </div>
   )
 };
