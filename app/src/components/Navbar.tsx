@@ -58,7 +58,13 @@ const Navbar = () => {
         <li>Select txt</li>
       </NavSection>
 
-      <NavSection title="Break points" link="/breakpoints">
+      <NavSection title="Break points" link="/breakpoints"></NavSection>
+
+      <NavSection title="Flex" link="/flex">
+        <li>col width, grow, shrink</li>
+        <li>overlay on breakpoint</li>
+        <li>align v center bottom</li>
+        <li>align h center bottom</li>
       </NavSection>
     </div>
   )

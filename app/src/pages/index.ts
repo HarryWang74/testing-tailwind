@@ -8,3 +8,4 @@ export { default as DropShadow } from './DropShadow';
 export { default as Border } from './Border';
 export { default as Interactive } from './Interactive';
 export { default as BreakPoints } from './BreakPoints';
+export { default as Flex } from './Flex';

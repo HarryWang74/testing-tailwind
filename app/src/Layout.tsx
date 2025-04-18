@@ -3,11 +3,11 @@ import Navbar from './components/Navbar';
 
 const Layout = () => {
   return (
-    <div className="flex flex-row h-screen ">
-      <div className="basis-[400px] border-r border-color overflow-y-auto">
+    <div className="relative h-screen pl-[400px]">
+      <div className="w-[400px] absolute top-0 left-0 overflow-y-auto h-screen">
         <Navbar />
       </div>
-      <div className="flex-1">
+      <div>
         <Outlet />
       </div>
     </div>

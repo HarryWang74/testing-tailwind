@@ -12,6 +12,7 @@ import {
   Border,
   Interactive,
   BreakPoints,
+  Flex,
 } from './pages'
 
 
@@ -59,6 +60,10 @@ const router = createBrowserRouter([
       {
         path: 'breakpoints/',
         element: <BreakPoints />,
+      },
+      {
+        path: 'flex/',
+        element: <Flex />,
       },
     ],
   },
